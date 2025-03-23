@@ -1,0 +1,33 @@
+{
+    "media_config": {
+        "description": "数据存储配置",
+        "type": "object",
+        "hint": "数据存在data目录下的yuafeng_data文件夹里",
+        "items": {
+            "save_text": {
+                "description": "是否保存文案",
+                "type": "bool",
+                "hint": "将从API获取到的文案保存到本地json文件里(暂时是无效配置哈哈)",
+                "default": true
+            },
+            "save_image": {
+                "description": "是否保存图片",
+                "type": "bool",
+                "hint": "将从API获取到的音频保存到本地",
+                "default": true
+            },
+            "save_video": {
+                "description": "是否保存视频",
+                "type": "bool",
+                "hint": "将从API获取到的音频保存到本地",
+                "default": true
+            },
+             "save_audio": {
+                "description": "是否保存音频",
+                "type": "bool",
+                "hint": "将从API获取到的音频保存到本地(暂时是无效配置哈哈)",
+                "default": false
+            }
+        }
+    }
+}
