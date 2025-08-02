@@ -13,7 +13,7 @@ _✨ [astrbot](https://github.com/AstrBotDevs/AstrBot) 枫林API对接插件 ✨
 [![GitHub](https://img.shields.io/badge/作者-Zhalslar-blue)](https://github.com/Zhalslar)
 
 </div>
-
+# 本插件已停止维护，相关功能已集成到apis插件：https://github.com/Zhalslar/astrbot_plugin_apis
 ## 🤝 介绍
 
 - 对接枫林API提供的接口，为astrbot提供丰富多彩的功能，  
